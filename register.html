@@ -1,0 +1,116 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <title>Contact Virtualisers</title>
+    <link rel="stylesheet" href="css/theme.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+        }
+        .contact-container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+        }
+        .form-row {
+            display: flex;
+            gap: 10px;
+        }
+        .form-row .form-control {
+            flex: 1;
+        }
+        .btn-submit {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        .btn-submit:hover {
+            background-color: #218838;
+        }
+        .large-textarea {
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contact-container">
+        <h2><strong>Want to work with us?</strong></h2>
+        <p>Are you working on something great? We'd love to help make it happen.</p>
+        <p>You’re not going to hit a ridiculously long phone menu when you call us. Your email is not going to the inbox abyss, never to be seen or heard from again. At Virtualisers, we provide the exceptional service we would want to experience ourselves! So give us your call, drop a message or reach out via LinkedIn. Shortly describe how we can assist you.</p>
+
+        <form>
+            <div class="form-row">
+                <input type="text" class="form-control" placeholder="First name" required>
+                <input type="text" class="form-control" placeholder="Last name" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your email address" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Phone number (optional)">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your website (optional)">
+            </div>
+            <div class="form-group">
+                <label for="division">Which division of Virtualisers seems best placed to reply:</label>
+                <select id="division" class="form-control" required>
+                    <option value="consulting">Consulting & Lean Coaching</option>
+                    <option value="platform-development">Platform Development</option>
+                    <option value="domain-appraisal">Domain Name Appraisal</option>
+                    <option value="acquire-website">Acquire Website & Generic Domain</option>
+                    <option value="online-marketing">Online Marketing & Growth Hacking</option>
+                    <option value="management-services">Management Services</option>
+                    <option value="virtualization">Virtualization.com</option>
+                    <option value="logistiek">Logistiek.be</option>
+                    <option value="crm">CRM</option>
+                    <option value="escrow">Escrow Services</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control large-textarea" placeholder="What are you looking for?" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send your message</button>
+        </form>
+
+        <footer class="text-center mt-4">
+            <h3>Contact Information</h3>
+            <p>📞 +32 479 27 29 29</p>
+            <p>✉ info@virtualisers.be</p>
+            <p>🏠 HQ: Anneessensstraat 22, 1000 Brussels, Belgium (deliver snail mail)</p>
+            <p>☕ Offices: Witte Patersstraat 4, 1040 Brussels, Belgium (taste our coffee)</p>
+        </footer>
+    </div>
+</body>
+
+</html>
